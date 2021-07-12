@@ -9,6 +9,6 @@ file "/tmp/ballu" do
 end
 
 file "/tmp/newballu" do
-  content "This is new Ballu"
+  content "This is new Ballu and lalu"
   mode '0777'
 end
