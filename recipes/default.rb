@@ -7,3 +7,8 @@
 file "/tmp/ballu" do
   content "This is Ballu the bear"
 end
+
+file "/tmp/newballu" do
+  content "This is new Ballu and lalu"
+  mode '0777'
+end
