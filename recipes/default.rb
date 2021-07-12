@@ -12,3 +12,7 @@ file "/tmp/newballu" do
   content "This is new Ballu and lalu"
   mode '0777'
 end
+
+file "/tmp/newlalu" do
+  content "This is lalu file of env : #{node['environment_name']}"
+end
